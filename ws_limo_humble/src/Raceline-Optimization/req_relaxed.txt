@@ -1,0 +1,11 @@
+numpy
+matplotlib
+git+https://github.com/CL2-UWaterloo/trajectory_planning_helpers.git
+# the following is required for minimum time optimization only
+casadi
+scipy
+scikit-learn
+scikit-image
+PyYAML
+pandas
+argparse
