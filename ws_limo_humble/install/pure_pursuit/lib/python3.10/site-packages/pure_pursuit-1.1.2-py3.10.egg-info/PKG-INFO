@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: pure_pursuit
+Version: 1.1.2
+Summary: Pure Pursuit path following controller for F1TENTH autonomous racing
+Maintainer: Fam Shihata, George Halim, Karim Shousha
+Maintainer-email: fam@awadlouis.com, georgehany064@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: license-file
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

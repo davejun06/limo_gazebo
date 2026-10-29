@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/Pause.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/Clear.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}

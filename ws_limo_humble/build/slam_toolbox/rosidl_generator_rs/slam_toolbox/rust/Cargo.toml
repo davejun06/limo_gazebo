@@ -1,0 +1,35 @@
+[package]
+name = "slam_toolbox"
+version = "2.6.10"
+edition = "2021"
+
+[dependencies]
+rosidl_runtime_rs = "0.6"
+serde = { version = "1", optional = true, features = ["derive"] }
+serde-big-array = { version = "0.5.1", optional = true }
+
+# ROS Dependencies
+<<<<<<< HEAD
+nav_msgs = "*"
+std_msgs = "*"
+visualization_msgs = "*"
+builtin_interfaces = "*"
+geometry_msgs = "*"
+sensor_msgs = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'nav_msgs/serde', 'std_msgs/serde', 'visualization_msgs/serde', 'builtin_interfaces/serde', 'geometry_msgs/serde', 'sensor_msgs/serde']
+=======
+std_msgs = "*"
+visualization_msgs = "*"
+sensor_msgs = "*"
+nav_msgs = "*"
+geometry_msgs = "*"
+builtin_interfaces = "*"
+
+[features]
+serde = ['dep:serde', 'dep:serde-big-array', 'rosidl_runtime_rs/serde', 'std_msgs/serde', 'visualization_msgs/serde', 'sensor_msgs/serde', 'nav_msgs/serde', 'geometry_msgs/serde', 'builtin_interfaces/serde']
+>>>>>>> 34900e8 (처음 가제보 시뮬레이션 세팅)
+
+[package.metadata.ros-env]
+include = true

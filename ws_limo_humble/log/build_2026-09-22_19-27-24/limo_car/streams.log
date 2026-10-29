@@ -1,0 +1,47 @@
+[0.015s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car -- -j12 -l12
+[0.098s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car -- -j12 -l12
+[0.108s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car
+[0.116s] -- Install configuration: ""
+[0.117s] -- Execute custom install script
+[0.118s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/__pycache__/ackermann_diagnostics.launch.cpython-310.pyc
+[0.119s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/__pycache__/roboracer_sim.launch.cpython-310.pyc
+[0.130s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann.launch.py
+[0.130s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann_gazebo.launch.py
+[0.130s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/display_ackermann.launch.py
+[0.131s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/four_diff.launch.py
+[0.131s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/limo_slam.launch.py
+[0.131s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_4diff_sim.launch.py
+[0.132s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_sim.launch.py
+[0.133s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann.xacro
+[0.133s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann_with_sensor.xacro
+[0.133s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff.xacro
+[0.133s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff_with_sensor.xacro
+[0.134s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/sensor.xacro
+[0.134s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.dae
+[0.134s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.stl
+[0.134s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.dae
+[0.135s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.stl
+[0.135s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/gazebo.rviz
+[0.135s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/urdf.rviz
+[0.136s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_ackerman_base.xacro
+[0.136s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_anteil.xacro
+[0.137s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_steering_hinge.xacro
+[0.138s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer.world
+[0.139s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer_heightmap.png
+[0.139s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/lib/limo_car/ackermann_twist_adapter.py
+[0.141s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/package_run_dependencies/limo_car
+[0.141s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/parent_prefix_path/limo_car
+[0.142s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.sh
+[0.143s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.dsv
+[0.143s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.bash
+[0.143s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.sh
+[0.144s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.zsh
+[0.144s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.dsv
+[0.144s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.dsv
+[0.156s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/packages/limo_car
+[0.157s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig.cmake
+[0.157s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig-version.cmake
+[0.158s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.xml
+[0.160s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car

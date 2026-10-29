@@ -1,0 +1,647 @@
+[0.009s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox
+[0.019s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.165s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.190s] -- Found message_filters: 4.3.19 (/opt/ros/humble/share/message_filters/cmake)
+[0.227s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.231s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.243s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.297s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.299s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.379s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.403s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.442s] -- Looking for pthread.h
+[0.499s] -- Looking for pthread.h - found
+[0.499s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.563s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.564s] -- Found Threads: TRUE  
+[0.606s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.628s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.641s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[0.651s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.714s] -- Found visualization_msgs: 4.9.2 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.728s] -- Found pluginlib: 5.1.4 (/opt/ros/humble/share/pluginlib/cmake)
+[0.742s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.753s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.755s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.755s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.756s] -- Found tf2_sensor_msgs: 0.25.22 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[0.760s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.768s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.779s] -- Found rviz_common: 11.2.28 (/opt/ros/humble/share/rviz_common/cmake)
+[0.797s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.802s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.803s] -- Found OGRE
+[0.803s] --   static     : OFF
+[0.803s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.803s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.804s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.804s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.804s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.804s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.804s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.804s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.804s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.804s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.804s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.815s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[0.818s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.896s] -- Found X11: /usr/include   
+[0.897s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[0.954s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[0.954s] -- Looking for gethostbyname
+[1.007s] -- Looking for gethostbyname - found
+[1.008s] -- Looking for connect
+[1.063s] -- Looking for connect - found
+[1.063s] -- Looking for remove
+[1.121s] -- Looking for remove - found
+[1.121s] -- Looking for shmat
+[1.182s] -- Looking for shmat - found
+[1.182s] -- Looking for IceConnectionNumber in ICE
+[1.239s] -- Looking for IceConnectionNumber in ICE - found
+[1.303s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.323s] -- Found rviz_default_plugins: 11.2.28 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[1.381s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization filesystem thread 
+[1.390s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.396s] -- Found CHOLMOD: /usr/include/suitesparse  
+[1.398s] -- Found CSparse: /usr/include/suitesparse  
+[1.416s] -- Looking for sgemm_
+[1.474s] -- Looking for sgemm_ - not found
+[1.493s] -- Looking for sgemm_
+[1.548s] -- Looking for sgemm_ - found
+[1.548s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[1.550s] -- Looking for cheev_
+[1.609s] -- Looking for cheev_ - not found
+[1.617s] -- Looking for cheev_
+[1.663s] -- Looking for cheev_ - not found
+[1.663s] -- Looking for cheev_
+[1.724s] -- Looking for cheev_ - found
+[1.724s] -- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  
+[1.729s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.735s] -- Found required Ceres dependency: glog
+[1.735s] -- Found required Ceres dependency: gflags
+[1.736s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.981s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.451s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.454s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.471s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.471s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.472s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.472s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.488s] -- Found PythonExtra: .so  
+[2.643s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.656s] -- Configuring done
+[2.820s] -- Generating done
+[2.858s] -- Build files have been written to: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox
+[2.871s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox
+[2.873s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox -- -j12 -l12
+[2.915s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.929s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.933s] [  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.933s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.933s] [  4%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[2.934s] [  4%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[2.934s] [  4%] Built target ament_cmake_python_symlink_slam_toolbox
+[2.937s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.082s] running egg_info
+[3.082s] creating slam_toolbox.egg-info
+[3.082s] writing slam_toolbox.egg-info/PKG-INFO
+[3.083s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[3.083s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[3.083s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[3.085s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[3.086s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[3.115s] [  5%] Built target ament_cmake_python_build_slam_toolbox_egg
+[3.285s] [  5%] Built target slam_toolbox__rs
+[3.623s] [  5%] Built target slam_toolbox__cpp
+[3.630s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.634s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.634s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.759s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[3.760s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[3.761s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[3.761s] [ 11%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[3.761s] [ 10%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[3.917s] [ 12%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[3.917s] [ 13%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[3.917s] [ 13%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o[0m
+[3.925s] [ 14%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o[0m
+[3.945s] [ 15%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o[0m
+[3.991s] [ 16%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.031s] [ 16%] Built target gtest_main
+[4.085s] [ 16%] [32m[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so[0m
+[4.128s] [ 16%] Built target slam_toolbox__rosidl_generator_c
+[4.137s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.138s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.141s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.286s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[4.286s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[4.294s] [ 20%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[4.296s] [ 21%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[4.565s] [ 22%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o[0m
+[4.565s] [ 22%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o[0m
+[4.593s] [ 23%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o[0m
+[4.657s] [ 23%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o[0m
+[4.692s] [ 24%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[4.754s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[4.931s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[5.004s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[5.051s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o[0m
+[5.051s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[5.054s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[5.065s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[5.070s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o[0m
+[5.099s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o[0m
+[5.103s] [ 30%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[5.137s] [ 31%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[5.170s] [ 32%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o[0m
+[5.175s] [ 32%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[5.207s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[5.214s] [ 34%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o[0m
+[5.240s] [ 35%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[5.251s] [ 36%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o[0m
+[5.276s] [ 36%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[5.298s] [ 36%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o[0m
+[5.307s] [ 37%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so[0m
+[5.343s] [ 38%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o[0m
+[5.355s] [ 39%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[5.359s] [ 39%] Built target slam_toolbox__rosidl_typesupport_c
+[5.370s] [ 40%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o[0m
+[5.391s] [ 41%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o[0m
+[5.436s] [ 41%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o[0m
+[5.444s] [ 41%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o[0m
+[5.488s] [ 42%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o[0m
+[5.502s] [ 43%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o[0m
+[5.536s] [ 44%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o[0m
+[5.562s] [ 45%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o[0m
+[5.587s] [ 45%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o[0m
+[5.606s] [ 46%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[5.634s] [ 47%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o[0m
+[5.671s] [ 47%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[5.688s] [ 47%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[5.692s] [ 48%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o[0m
+[5.740s] [ 48%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o[0m
+[5.765s] [ 48%] [32m[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so[0m
+[6.162s] [ 48%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[6.241s] [ 49%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[6.735s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o[0m
+[7.131s] [ 51%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o[0m
+[7.409s] [ 51%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o[0m
+[7.626s] [ 52%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o[0m
+[7.651s] [ 53%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o[0m
+[8.064s] [ 54%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o[0m
+[9.245s] [ 55%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so[0m
+[9.387s] [ 56%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o[0m
+[9.531s] [ 56%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o[0m
+[9.741s] [ 56%] Built target slam_toolbox__rosidl_typesupport_cpp
+[9.771s] [ 56%] [34m[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp[0m
+[9.812s] [ 57%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o[0m
+[9.888s] [ 57%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o[0m
+[9.958s] [ 58%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o[0m
+[10.016s] [ 59%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o[0m
+[10.057s] [ 60%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o[0m
+[10.108s] [ 61%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o[0m
+[10.153s] [ 61%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o[0m
+[10.181s] [ 62%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o[0m
+[10.352s] [ 62%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.391s] [ 63%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so[0m
+[10.431s] [ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[10.468s] [ 63%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[10.671s] [ 64%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so[0m
+[10.759s] [ 64%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[10.774s] [ 64%] Built target slam_toolbox
+[10.795s] [ 64%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.827s] [ 64%] Built target slam_toolbox__py
+[11.849s] [ 65%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o[0m
+[11.849s] [ 67%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o[0m
+[11.849s] [ 67%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o[0m
+[11.850s] [ 68%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o[0m
+[11.850s] [ 68%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o[0m
+[11.852s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o[0m
+[11.854s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o[0m
+[12.008s] [ 70%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o[0m
+[12.016s] [ 71%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o[0m
+[12.016s] [ 71%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o[0m
+[12.187s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__rosidl_generator_py.so[0m
+[12.236s] [ 72%] Built target slam_toolbox__rosidl_generator_py
+[12.257s] [ 73%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.259s] [ 74%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.259s] [ 74%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o[0m
+[12.523s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.557s] [ 75%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[12.669s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.684s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.723s] [ 76%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[12.742s] [ 76%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[17.284s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[17.318s] [ 77%] Built target gtest
+[26.255s] [ 78%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[26.499s] [ 78%] Built target kartoSlamToolbox
+[26.518s] [ 78%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[26.520s] [ 81%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[26.520s] [ 81%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[26.520s] [ 81%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[26.520s] [ 82%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[26.520s] [ 83%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[29.104s] [ 83%] [32m[1mLinking CXX shared library libSlamToolboxPlugin.so[0m
+[33.036s] [ 83%] Built target SlamToolboxPlugin
+[44.024s] [ 83%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[44.488s] [ 83%] Built target ceres_solver_plugin
+[53.859s] [ 84%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[54.285s] [ 84%] Built target toolbox_common
+[54.300s] [ 84%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o[0m
+[54.301s] [ 84%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o[0m
+[54.302s] [ 86%] [32mBuilding CXX object CMakeFiles/map_saver_test.dir/test/map_saver_test.cpp.o[0m
+[54.302s] [ 86%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o[0m
+[54.304s] [ 87%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o[0m
+[54.305s] [ 87%] [32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o[0m
+[65.382s] [ 88%] [32m[1mLinking CXX executable map_saver_test[0m
+[65.897s] [ 88%] Built target map_saver_test
+[68.601s] [ 89%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[69.016s] [ 89%] Built target sync_slam_toolbox
+[69.041s] [ 90%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o[0m
+[71.434s] [ 91%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[72.032s] [ 91%] Built target async_slam_toolbox
+[72.057s] [ 91%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o[0m
+[72.174s] [ 91%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[72.789s] [ 91%] Built target lifelong_slam_toolbox
+[72.790s] [ 92%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[72.814s] [ 93%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o[0m
+[73.229s] [ 94%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[73.298s] [ 94%] Built target localization_slam_toolbox
+[73.320s] [ 94%] [32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox.dir/src/experimental/slam_toolbox_map_and_localization.cpp.o[0m
+[73.324s] [ 95%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o[0m
+[73.886s] [ 95%] Built target merge_maps_kinematic
+[82.330s] [ 96%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[82.810s] [ 96%] Built target async_slam_toolbox_node
+[84.934s] [ 96%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[85.395s] [ 96%] Built target sync_slam_toolbox_node
+[87.632s] [ 97%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[87.912s] [ 97%] Built target localization_slam_toolbox_node
+[88.224s] [ 98%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[88.488s] [ 98%] Built target lifelong_slam_toolbox_node
+[89.374s] [ 99%] [32m[1mLinking CXX shared library libmap_and_localization_slam_toolbox.so[0m
+[89.688s] [ 99%] Built target map_and_localization_slam_toolbox
+[89.705s] [100%] [32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox_node.dir/src/experimental/slam_toolbox_map_and_localization_node.cpp.o[0m
+[96.775s] [100%] [32m[1mLinking CXX executable map_and_localization_slam_toolbox_node[0m
+[97.016s] [100%] Built target map_and_localization_slam_toolbox_node
+[97.027s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox -- -j12 -l12
+[97.035s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox
+[97.042s] -- Install configuration: "Release"
+[97.043s] -- Execute custom install script
+[97.043s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Karto.h
+[97.048s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Macros.h
+[97.056s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Mapper.h
+[97.061s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Math.h
+[97.068s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Types.h
+[97.075s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[97.082s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[97.090s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[97.096s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[97.103s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[97.108s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[97.116s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[97.121s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[97.127s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[97.132s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[97.139s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[97.144s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[97.151s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[97.156s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[97.163s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[97.169s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[97.177s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[97.182s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[97.189s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[97.195s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[97.201s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[97.207s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[97.214s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[97.219s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[97.225s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[97.230s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[97.237s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[97.242s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[97.249s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[97.254s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[97.261s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[97.266s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[97.274s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[97.279s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[97.285s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[97.291s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[97.297s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[97.302s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[97.309s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[97.314s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[97.322s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[97.327s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[97.334s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[97.340s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[97.347s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[97.354s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[97.361s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[97.367s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[97.374s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[97.381s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[97.387s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[97.394s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[97.398s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[97.405s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[97.411s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[97.418s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[97.423s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[97.430s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp
+[97.435s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[97.442s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[97.449s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[97.456s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[97.463s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[97.469s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[97.477s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[97.483s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.hpp
+[97.489s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[97.495s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[97.502s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[97.507s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.hpp
+[97.514s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[97.519s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[97.526s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[97.531s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.hpp
+[97.538s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[97.543s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[97.550s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[97.556s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp
+[97.561s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[97.566s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[97.574s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[97.579s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.hpp
+[97.586s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[97.591s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[97.598s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[97.603s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.hpp
+[97.610s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[97.615s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[97.622s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[97.627s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.hpp
+[97.634s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[97.639s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[97.646s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[97.651s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.hpp
+[97.658s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[97.663s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[97.670s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[97.675s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp
+[97.683s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[97.688s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[97.695s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[97.701s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp
+[97.708s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[97.714s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[97.723s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[97.730s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[97.736s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[97.743s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[97.749s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[97.756s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[97.763s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[97.770s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[97.778s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[97.784s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[97.792s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[97.798s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[97.805s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[97.810s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[97.817s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[97.825s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[97.831s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[97.837s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[97.843s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[97.848s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[97.855s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[97.861s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[97.868s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[97.874s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[97.881s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[97.887s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[97.893s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[97.898s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[97.905s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[97.910s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[97.917s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[97.924s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[97.931s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[97.938s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[97.943s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[97.950s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[97.956s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[97.963s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[97.968s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/PKG-INFO
+[97.973s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/SOURCES.txt
+[97.980s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/dependency_links.txt
+[97.987s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/top_level.txt
+[97.994s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[98.001s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[98.007s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[98.014s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[98.020s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[98.026s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[98.032s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.039s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.044s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[98.051s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[98.056s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[98.063s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[98.068s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[98.075s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[98.081s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[98.087s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[98.092s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[98.099s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[98.104s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[98.110s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[98.116s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[98.123s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[98.128s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[98.134s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[98.140s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[98.146s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[98.152s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[98.158s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[98.163s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[98.170s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[98.170s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[98.170s] -- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[98.170s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rust_packages/slam_toolbox
+[98.178s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/Cargo.toml
+[98.183s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/build.rs
+[98.189s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/lib.rs
+[98.195s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/srv.rs
+[98.200s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/srv/rmw.rs
+[98.207s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[98.214s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[98.220s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[98.227s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[98.234s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[98.241s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[98.248s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[98.255s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[98.262s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[98.268s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[98.274s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause.srv
+[98.281s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause_Request.msg
+[98.287s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause_Response.msg
+[98.293s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.srv
+[98.299s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Request.msg
+[98.305s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Response.msg
+[98.310s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.srv
+[98.318s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Request.msg
+[98.324s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Response.msg
+[98.331s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear.srv
+[98.338s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear_Request.msg
+[98.343s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear_Response.msg
+[98.349s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.srv
+[98.354s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Request.msg
+[98.362s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Response.msg
+[98.367s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.srv
+[98.374s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Request.msg
+[98.381s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Response.msg
+[98.386s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.srv
+[98.393s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Request.msg
+[98.398s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Response.msg
+[98.403s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.srv
+[98.409s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Request.msg
+[98.415s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Response.msg
+[98.422s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.srv
+[98.430s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Request.msg
+[98.435s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Response.msg
+[98.444s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.srv
+[98.453s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Request.msg
+[98.462s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Response.msg
+[98.471s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[98.478s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[98.484s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[98.492s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[98.497s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[98.504s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[98.509s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[98.516s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libtoolbox_common.so
+[98.521s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[98.528s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libceres_solver_plugin.so
+[98.534s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[98.542s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[98.547s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[98.554s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[98.560s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[98.567s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[98.573s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[98.579s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[98.584s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[98.591s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[98.596s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[98.603s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[98.608s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[98.616s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[98.621s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[98.629s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[98.636s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[98.643s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[98.647s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[98.654s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[98.662s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[98.668s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[98.675s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[98.681s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[98.688s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[98.693s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[98.700s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[98.706s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[98.713s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[98.718s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[98.725s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[98.731s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[98.740s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[98.747s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[98.752s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/solver_plugins.xml
+[98.759s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/rviz_plugins.xml
+[98.765s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[98.772s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[98.777s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[98.784s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[98.789s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[98.796s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[98.801s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[98.809s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[98.814s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[98.821s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[98.828s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/package.dsv
+[98.835s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[98.841s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[98.848s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[98.853s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[98.860s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[98.865s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.872s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.878s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[98.885s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[98.892s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[98.897s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[98.903s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[98.910s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[98.916s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[98.922s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/package.xml
+[98.928s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[98.928s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""
+[98.928s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[98.928s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""
+[98.928s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[98.928s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[98.928s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[98.928s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""
+[98.928s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[98.929s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""
+[98.929s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[98.929s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""
+[98.929s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[98.929s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""
+[98.959s] Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py'...
+[98.959s] Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py'...
+[98.959s] Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py'...
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[98.962s] -- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so" to ""
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[98.962s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[98.963s] -- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[98.965s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox

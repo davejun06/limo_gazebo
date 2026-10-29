@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "limo_msgs__py",
+		"source" : "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs/limo_msgs__py"
+	}
+}

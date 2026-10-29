@@ -1,0 +1,2 @@
+Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox': /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox
+Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox' returned '1': /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox

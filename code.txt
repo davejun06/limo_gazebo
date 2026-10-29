@@ -1,0 +1,71 @@
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+mapping
+-1.가제보 실행
+ros2 launch limo_car roboracer_sim.launch.py
+-2.mapping 시작
+ros2 launch slam_toolbox online_async_launch.py
+-3.mapping 저장
+ros2 launch nav2_map_server map_saver_cli -f <맵이름>
+
+localization
+ros2 launch nav2_bringup localization_launch.py map:=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_car/maps/track_map2.yaml
+
+최적화 
+-1. 단계 최적화할 맵 선정
+cp <맵이 있는 폴더>/맵이름.pgm maps/
+cp <맵이 있는 폴더>/맵이름.yaml maps/
+
+-2. 맵-> 트랙 csv변환
+source .venv/bin/activate (나가는 법: deactivate)
+python map2track_ring.py 맵이름
+
+-3 실행
+python main_globaltraj_f110.py --map_name <맵이름> --export_path outputs/<맵이름>_pp.csv
+
+-4 결과 확인 
+grep -E "EXIT|Laptime|Maximum|Minimum|distance to boundaries" run.log
+python plot_result.py <맵이름>
+
+-방향검토
+python check_direction.py 
+
+Pure Pursuit 노드 (터미널 4)
+ros2 run pure_pursuit pure_pursuit_node --ros-args --params-file src/pure_pursuit/config/limo_params.yaml -p use_sim_time:=true
+
+경로 발행 (터미널 5)
+python3 src/limo_pp/pp_path_pub.py --ros-args -p csv_path:=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/Raceline-Optimization/outputs/track_map2_pp.csv -p use_sim_time:=true
+
+Ackermann→Twist 변환 (터미널 6)
+python3 ackermann_to_twist.py --ros-args -p use_sim_time:=true
+
+출발 (터미널 7)
+ros2 topic pub -r 5 /control_selector std_msgs/msg/String "{data: 'pure_pursuit'}"
+
+정지
+ros2 topic pub -r 5 /control_selector std_msgs/msg/String "{data: 'stop'}"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

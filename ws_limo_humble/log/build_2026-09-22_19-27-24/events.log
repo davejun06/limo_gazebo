@@ -1,0 +1,989 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (limo_car) JobQueued: {'identifier': 'limo_car', 'dependencies': OrderedDict()}
+[0.000733] (limo_description) JobQueued: {'identifier': 'limo_description', 'dependencies': OrderedDict()}
+[0.000779] (limo_msgs) JobQueued: {'identifier': 'limo_msgs', 'dependencies': OrderedDict()}
+[0.000821] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000872] (limo_base) JobQueued: {'identifier': 'limo_base', 'dependencies': OrderedDict([('limo_msgs', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs')])}
+[0.000920] (limo_msgs) JobStarted: {'identifier': 'limo_msgs'}
+[0.008477] (limo_car) JobStarted: {'identifier': 'limo_car'}
+[0.011805] (limo_description) JobStarted: {'identifier': 'limo_description'}
+[0.015153] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.019232] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'cmake'}
+[0.019561] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.021958] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'cmake'}
+[0.022741] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'build'}
+[0.023324] (limo_car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car', '--', '-j12', '-l12'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.024178] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'cmake'}
+[0.024479] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.027610] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.028993] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.029474] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox', '--', '-j12', '-l12'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.099742] (-) TimerEvent: {}
+[0.106737] (limo_car) CommandEnded: {'returncode': 0}
+[0.107897] (limo_car) JobProgress: {'identifier': 'limo_car', 'progress': 'install'}
+[0.115568] (limo_car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_car'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.124742] (limo_car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.125455] (limo_car) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.126818] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/__pycache__/ackermann_diagnostics.launch.cpython-310.pyc\n'}
+[0.127430] (limo_car) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/__pycache__/roboracer_sim.launch.cpython-310.pyc\n'}
+[0.138298] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann.launch.py\n'}
+[0.138544] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/ackermann_gazebo.launch.py\n'}
+[0.138760] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/display_ackermann.launch.py\n'}
+[0.139331] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/four_diff.launch.py\n'}
+[0.139791] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/limo_slam.launch.py\n'}
+[0.140009] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_4diff_sim.launch.py\n'}
+[0.140525] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/launch/roboracer_sim.launch.py\n'}
+[0.141366] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann.xacro\n'}
+[0.141639] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/ackermann_with_sensor.xacro\n'}
+[0.141814] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff.xacro\n'}
+[0.142135] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/four_diff_with_sensor.xacro\n'}
+[0.142238] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/gazebo/sensor.xacro\n'}
+[0.142679] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.dae\n'}
+[0.142957] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_base.stl\n'}
+[0.143095] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.dae\n'}
+[0.143226] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/meshes/limo_wheel.stl\n'}
+[0.143932] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/gazebo.rviz\n'}
+[0.144121] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/rviz/urdf.rviz\n'}
+[0.144843] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_ackerman_base.xacro\n'}
+[0.145114] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_anteil.xacro\n'}
+[0.145338] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/urdf/limo_steering_hinge.xacro\n'}
+[0.147066] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer.world\n'}
+[0.147454] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/worlds/roboracer/ifac_roboracer_heightmap.png\n'}
+[0.147889] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/lib/limo_car/ackermann_twist_adapter.py\n'}
+[0.149726] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/package_run_dependencies/limo_car\n'}
+[0.149959] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/parent_prefix_path/limo_car\n'}
+[0.150217] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.sh\n'}
+[0.150446] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/ament_prefix_path.dsv\n'}
+[0.150640] (slam_toolbox) StdoutLine: {'line': b'[  2%] Built target slam_toolbox__cpp\n'}
+[0.150793] (slam_toolbox) StdoutLine: {'line': b'[  2%] Built target slam_toolbox__rs\n'}
+[0.151018] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.sh\n'}
+[0.151257] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/environment/path.dsv\n'}
+[0.151588] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.bash\n'}
+[0.151910] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.sh\n'}
+[0.152227] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.zsh\n'}
+[0.152428] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/local_setup.dsv\n'}
+[0.152640] (limo_car) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.dsv\n'}
+[0.154311] (slam_toolbox) StdoutLine: {'line': b'[  4%] Built target gtest\n'}
+[0.155921] (slam_toolbox) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_slam_toolbox\n'}
+[0.156113] (slam_toolbox) StdoutLine: {'line': b'[  5%] Built target gtest_main\n'}
+[0.161557] (slam_toolbox) StdoutLine: {'line': b'[ 13%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.165069] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/ament_index/resource_index/packages/limo_car\n'}
+[0.165700] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig.cmake\n'}
+[0.165971] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/cmake/limo_carConfig-version.cmake\n'}
+[0.166591] (limo_car) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car/share/limo_car/package.xml\n'}
+[0.168705] (limo_car) CommandEnded: {'returncode': 0}
+[0.190582] (slam_toolbox) StdoutLine: {'line': b'[ 21%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.191147] (limo_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.191343] (limo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.191502] (slam_toolbox) StdoutLine: {'line': b'[ 30%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.194325] (slam_toolbox) StdoutLine: {'line': b'[ 38%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.195689] (slam_toolbox) StdoutLine: {'line': b'[ 46%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[0.196493] (slam_toolbox) StdoutLine: {'line': b'[ 54%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.197188] (slam_toolbox) StdoutLine: {'line': b'[ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.199980] (-) TimerEvent: {}
+[0.204406] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target kartoSlamToolbox\n'}
+[0.218149] (limo_car) JobEnded: {'identifier': 'limo_car', 'rc': 0}
+[0.222130] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox\n'}
+[0.242850] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target SlamToolboxPlugin\n'}
+[0.249967] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target slam_toolbox__py\n'}
+[0.265525] (slam_toolbox) StdoutLine: {'line': b'[ 67%] Built target ceres_solver_plugin\n'}
+[0.270925] (slam_toolbox) StdoutLine: {'line': b'[ 72%] Built target toolbox_common\n'}
+[0.282943] (limo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.283174] (limo_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.285155] (slam_toolbox) StdoutLine: {'line': b'[ 80%] Built target slam_toolbox__rosidl_generator_py\n'}
+[0.297027] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.297265] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.301697] (-) TimerEvent: {}
+[0.312835] (slam_toolbox) StdoutLine: {'line': b'[ 82%] Built target map_saver_test\n'}
+[0.316140] (slam_toolbox) StdoutLine: {'line': b'[ 83%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.318665] (slam_toolbox) StdoutLine: {'line': b'[ 84%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[0.320674] (slam_toolbox) StdoutLine: {'line': b'[ 86%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[0.324741] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target merge_maps_kinematic\n'}
+[0.331210] (slam_toolbox) StdoutLine: {'line': b'[ 88%] Built target localization_slam_toolbox\n'}
+[0.335299] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target sync_slam_toolbox\n'}
+[0.335567] (slam_toolbox) StdoutLine: {'line': b'[ 91%] Built target async_slam_toolbox\n'}
+[0.337576] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target lifelong_slam_toolbox\n'}
+[0.378469] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target localization_slam_toolbox_node\n'}
+[0.378788] (slam_toolbox) StdoutLine: {'line': b'[ 95%] Built target map_and_localization_slam_toolbox\n'}
+[0.392267] (limo_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.392505] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.397440] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target async_slam_toolbox_node\n'}
+[0.397690] (slam_toolbox) StdoutLine: {'line': b'[ 97%] Built target sync_slam_toolbox_node\n'}
+[0.400407] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target lifelong_slam_toolbox_node\n'}
+[0.401759] (-) TimerEvent: {}
+[0.403605] (limo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.403797] (limo_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.404161] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.404314] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.405011] (limo_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.405136] (limo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.409922] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.410073] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.426223] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target map_and_localization_slam_toolbox_node\n'}
+[0.487048] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[0.488094] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[0.488403] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[0.488703] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[0.492482] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.493748] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.501205] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.501851] (-) TimerEvent: {}
+[0.503465] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.508834] (limo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.509133] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.509670] (limo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.513264] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.514582] (limo_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.514987] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.515681] (limo_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.520068] (limo_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.526087] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[0.541316] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.542758] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[0.543426] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/slam_toolbox'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.552920] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.553977] (slam_toolbox) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.554594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[0.554742] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[0.554860] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[0.554964] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[0.555078] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[0.555189] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[0.555322] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[0.555576] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[0.556505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.556649] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h\n'}
+[0.556771] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h\n'}
+[0.556873] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h\n'}
+[0.556981] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[0.557141] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[0.557274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[0.557382] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[0.557687] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h\n'}
+[0.557948] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h\n'}
+[0.558241] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[0.558459] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[0.558692] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[0.558913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[0.559133] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[0.559348] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[0.559581] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[0.559827] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[0.560030] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[0.560229] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[0.560427] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[0.560625] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[0.560837] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[0.561040] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h\n'}
+[0.561259] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h\n'}
+[0.561492] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[0.561748] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[0.561935] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[0.562138] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[0.562345] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[0.562552] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[0.562787] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[0.562986] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[0.563188] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[0.563395] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[0.563614] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h\n'}
+[0.563853] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h\n'}
+[0.564058] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h\n'}
+[0.564225] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h\n'}
+[0.564406] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[0.564594] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h\n'}
+[0.564915] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[0.565136] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[0.566343] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.566540] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[0.566745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[0.566938] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[0.567130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.567319] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[0.567505] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[0.567707] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[0.567899] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.568088] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.568277] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[0.569480] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.569681] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp\n'}
+[0.569868] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp\n'}
+[0.570052] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp\n'}
+[0.570238] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[0.570431] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[0.570627] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[0.570889] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[0.571095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.hpp\n'}
+[0.571295] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[0.571493] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[0.571750] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[0.571952] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.hpp\n'}
+[0.572153] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[0.572350] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[0.572608] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[0.572810] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.hpp\n'}
+[0.573008] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[0.573206] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[0.573431] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[0.573628] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.hpp\n'}
+[0.573818] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[0.574005] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[0.574193] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[0.574377] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.hpp\n'}
+[0.574562] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[0.574764] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[0.574948] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[0.575131] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.hpp\n'}
+[0.575319] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[0.575503] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[0.575704] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[0.575897] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.hpp\n'}
+[0.576080] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[0.576263] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[0.576448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[0.576643] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.hpp\n'}
+[0.576838] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[0.577025] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[0.577210] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[0.577395] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.hpp\n'}
+[0.577583] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[0.577793] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[0.578016] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[0.578252] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.hpp\n'}
+[0.578416] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp\n'}
+[0.578616] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp\n'}
+[0.578801] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp\n'}
+[0.579004] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp\n'}
+[0.579179] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[0.579355] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[0.580544] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.580746] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.580944] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.581131] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.581335] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.581516] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.581711] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.581905] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.582095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.582290] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.582481] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.583221] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.583408] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[0.583604] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[0.583802] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[0.583993] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.584184] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[0.584372] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[0.584580] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[0.584785] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.584994] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.585191] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[0.585951] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.586130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.586326] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.586517] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.586718] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.586913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587293] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587488] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587691] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[0.588158] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[0.588580] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/PKG-INFO\n'}
+[0.588795] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/SOURCES.txt\n'}
+[0.588983] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/dependency_links.txt\n'}
+[0.589169] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.10-py3.10.egg-info/top_level.txt\n'}
+[0.590578] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py\n'}
+[0.590778] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c\n'}
+[0.590962] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.591145] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.591329] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.591514] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.591705] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.591891] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.592107] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py\n'}
+[0.592299] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py\n'}
+[0.592485] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[0.592680] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py\n'}
+[0.592867] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[0.593051] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[0.593233] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c\n'}
+[0.593416] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[0.593613] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[0.593801] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[0.593983] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[0.594168] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[0.594353] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[0.594536] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py\n'}
+[0.594731] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c\n'}
+[0.594917] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py\n'}
+[0.595101] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[0.595290] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[0.595489] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[0.595688] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[0.595893] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[0.596385] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.596788] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.597233] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.597620] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rust_packages/slam_toolbox\n'}
+[0.598244] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/Cargo.toml\n'}
+[0.598438] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/build.rs\n'}
+[0.598663] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/lib.rs\n'}
+[0.598882] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/srv.rs\n'}
+[0.599094] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/rust/src/srv/rmw.rs\n'}
+[0.599369] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[0.599617] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[0.599871] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[0.600110] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[0.600347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[0.600582] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[0.600834] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[0.601069] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[0.601306] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[0.601546] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[0.601797] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause.srv\n'}
+[0.601891] (-) TimerEvent: {}
+[0.602052] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause_Request.msg\n'}
+[0.602288] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Pause_Response.msg\n'}
+[0.602510] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.srv\n'}
+[0.602756] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Request.msg\n'}
+[0.602990] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue_Response.msg\n'}
+[0.603250] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.srv\n'}
+[0.603477] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Request.msg\n'}
+[0.603733] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive_Response.msg\n'}
+[0.603968] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear.srv\n'}
+[0.604206] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear_Request.msg\n'}
+[0.604435] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/Clear_Response.msg\n'}
+[0.604675] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.srv\n'}
+[0.604922] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Request.msg\n'}
+[0.605160] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SaveMap_Response.msg\n'}
+[0.605390] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.srv\n'}
+[0.605641] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Request.msg\n'}
+[0.605875] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure_Response.msg\n'}
+[0.606136] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.srv\n'}
+[0.606371] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Request.msg\n'}
+[0.606624] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps_Response.msg\n'}
+[0.606875] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.srv\n'}
+[0.607108] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Request.msg\n'}
+[0.607345] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap_Response.msg\n'}
+[0.607575] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.srv\n'}
+[0.607826] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Request.msg\n'}
+[0.608063] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph_Response.msg\n'}
+[0.608293] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.srv\n'}
+[0.608527] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Request.msg\n'}
+[0.608772] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph_Response.msg\n'}
+[0.609012] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml\n'}
+[0.609248] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml\n'}
+[0.609814] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[0.610050] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[0.610279] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[0.610506] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node\n'}
+[0.610742] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[0.610974] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[0.611198] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.611420] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[0.611650] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[0.611871] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[0.612090] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[0.612350] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[0.612567] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so\n'}
+[0.612814] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[0.613563] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[0.613767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp\n'}
+[0.613947] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[0.614123] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[0.614298] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[0.614472] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[0.614667] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[0.614846] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[0.615085] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[0.615261] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[0.615434] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[0.615617] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[0.615802] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[0.615976] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[0.616151] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[0.616326] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[0.616501] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[0.617219] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[0.617398] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[0.617572] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[0.617759] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[0.617929] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[0.618571] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[0.618764] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[0.618937] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[0.619108] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[0.619281] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[0.619452] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[0.619719] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/solver_plugins.xml\n'}
+[0.619906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[0.620198] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[0.620483] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[0.620745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[0.620952] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[0.621189] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[0.621387] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[0.621623] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[0.621863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[0.622095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[0.622289] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[0.622444] (slam_toolbox) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[0.631448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[0.631782] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox\n'}
+[0.632073] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[0.632358] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[0.632629] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[0.632875] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.633113] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.633351] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.633584] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.633845] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.634077] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.634321] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.634562] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[0.634757] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[0.634994] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[0.635714] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[0.636434] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[0.637217] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.637885] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[0.638622] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[0.639283] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[0.640077] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[0.675171] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...\n"}
+[0.675345] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...\n"}
+[0.676048] (limo_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.679865] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.680666] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[0.680788] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[0.681107] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.681237] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[0.681423] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[0.681771] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.681882] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[0.682161] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.682263] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[0.682621] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[0.682737] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[0.683048] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.683160] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[0.683454] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[0.683563] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[0.683815] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake\n'}
+[0.683927] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake\n'}
+[0.684179] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[0.684289] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[0.685843] (limo_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.687410] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.702356] (-) TimerEvent: {}
+[0.716179] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[0.743373] (limo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.747403] (limo_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.783120] (limo_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.783368] (limo_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.802452] (-) TimerEvent: {}
+[0.832563] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.838953] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.849664] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.863552] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.875460] (limo_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.879016] (limo_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.879778] (limo_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.880360] (limo_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.881541] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.882061] (limo_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.883387] (limo_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.885683] (limo_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.886970] (limo_description) StdoutLine: {'line': b'-- Build files have been written to: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description\n'}
+[0.890819] (limo_description) CommandEnded: {'returncode': 0}
+[0.891323] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'build'}
+[0.891776] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description', '--', '-j12', '-l12'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.902571] (-) TimerEvent: {}
+[0.918306] (limo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.931639] (limo_description) CommandEnded: {'returncode': 0}
+[0.932346] (limo_description) JobProgress: {'identifier': 'limo_description', 'progress': 'install'}
+[0.932804] (limo_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[0.941386] (limo_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.941807] (limo_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.942230] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/display_models_diff.launch.py\n'}
+[0.952565] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/launch/gazebo_models_diff.launch.py\n'}
+[0.960427] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.dae\n'}
+[0.968854] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_base.stl\n'}
+[0.978332] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.dae\n'}
+[0.988644] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/meshes/limo_wheel.stl\n'}
+[0.999124] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/model_display.rviz\n'}
+[1.002650] (-) TimerEvent: {}
+[1.009158] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/rviz/urdf.rviz\n'}
+[1.017388] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.gazebo\n'}
+[1.026543] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_ackerman.xacro\n'}
+[1.036571] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.gazebo\n'}
+[1.046800] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff.xacro\n'}
+[1.054267] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_four_diff_2.gazebo\n'}
+[1.061938] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_gazebo.gazebo\n'}
+[1.071348] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_steering_hinge.xacro\n'}
+[1.081456] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/urdf/limo_xacro.xacro\n'}
+[1.091721] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/package_run_dependencies/limo_description\n'}
+[1.099562] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/parent_prefix_path/limo_description\n'}
+[1.102716] (-) TimerEvent: {}
+[1.108675] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.sh\n'}
+[1.118673] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/ament_prefix_path.dsv\n'}
+[1.126675] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.sh\n'}
+[1.136196] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/environment/path.dsv\n'}
+[1.144273] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.bash\n'}
+[1.152009] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.sh\n'}
+[1.161013] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.zsh\n'}
+[1.169199] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/local_setup.dsv\n'}
+[1.178794] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.dsv\n'}
+[1.187046] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/ament_index/resource_index/packages/limo_description\n'}
+[1.197466] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig.cmake\n'}
+[1.202823] (-) TimerEvent: {}
+[1.205481] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/cmake/limo_descriptionConfig-version.cmake\n'}
+[1.206615] (limo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.214264] (limo_description) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_description/share/limo_description/package.xml\n'}
+[1.224307] (limo_description) CommandEnded: {'returncode': 0}
+[1.237750] (limo_description) JobEnded: {'identifier': 'limo_description', 'rc': 0}
+[1.302929] (-) TimerEvent: {}
+[1.403214] (-) TimerEvent: {}
+[1.503495] (-) TimerEvent: {}
+[1.545136] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603590] (-) TimerEvent: {}
+[1.677838] (limo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.698706] (limo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.700744] (limo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.703633] (-) TimerEvent: {}
+[1.725752] (limo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.725961] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.726057] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.726144] (limo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.749901] (limo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.803739] (-) TimerEvent: {}
+[1.865059] (limo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.890560] (limo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.891851] (limo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.892589] (limo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.895658] (limo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.903803] (-) TimerEvent: {}
+[1.922575] (limo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.931749] (limo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs\n'}
+[1.939167] (limo_msgs) CommandEnded: {'returncode': 0}
+[1.939682] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'build'}
+[1.939969] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', '--', '-j12', '-l12'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[1.985877] (limo_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.997429] (limo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.997670] (limo_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[2.003899] (-) TimerEvent: {}
+[2.007247] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_limo_msgs\n'}
+[2.104009] (-) TimerEvent: {}
+[2.200230] (limo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.200872] (limo_msgs) StdoutLine: {'line': b'creating limo_msgs.egg-info\n'}
+[2.201081] (limo_msgs) StdoutLine: {'line': b'writing limo_msgs.egg-info/PKG-INFO\n'}
+[2.201255] (limo_msgs) StdoutLine: {'line': b'writing dependency_links to limo_msgs.egg-info/dependency_links.txt\n'}
+[2.201398] (limo_msgs) StdoutLine: {'line': b'writing top-level names to limo_msgs.egg-info/top_level.txt\n'}
+[2.201533] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[2.203446] (limo_msgs) StdoutLine: {'line': b"reading manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[2.203918] (limo_msgs) StdoutLine: {'line': b"writing manifest file 'limo_msgs.egg-info/SOURCES.txt'\n"}
+[2.204035] (-) TimerEvent: {}
+[2.230507] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_limo_msgs_egg\n'}
+[2.232803] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target limo_msgs__rs\n'}
+[2.290162] (limo_msgs) StdoutLine: {'line': b'[  9%] Built target limo_msgs__cpp\n'}
+[2.299958] (limo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.302781] (limo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.303041] (limo_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.304127] (-) TimerEvent: {}
+[2.313095] (limo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_c.dir/rosidl_generator_c/limo_msgs/msg/detail/limo_status__functions.c.o\x1b[0m\n'}
+[2.387723] (limo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.404237] (-) TimerEvent: {}
+[2.436473] (limo_msgs) StdoutLine: {'line': b'[ 25%] Built target limo_msgs__rosidl_generator_c\n'}
+[2.450230] (limo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.450468] (limo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.450584] (limo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.504353] (-) TimerEvent: {}
+[2.534932] (limo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[2.535227] (limo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/limo_msgs/msg/detail/limo_status__type_support.cpp.o\x1b[0m\n'}
+[2.604474] (-) TimerEvent: {}
+[2.644285] (limo_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/limo_msgs/msg/detail/dds_fastrtps/limo_status__type_support.cpp.o\x1b[0m\n'}
+[2.681156] (limo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/limo_msgs/msg/limo_status__type_support.cpp.o\x1b[0m\n'}
+[2.704591] (-) TimerEvent: {}
+[2.716141] (limo_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.771217] (limo_msgs) StdoutLine: {'line': b'[ 50%] Built target limo_msgs__rosidl_typesupport_c\n'}
+[2.793899] (limo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/limo_msgs/msg/detail/limo_status__type_support.c.o\x1b[0m\n'}
+[2.795451] (limo_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/limo_msgs/msg/detail/limo_status__type_support_c.cpp.o\x1b[0m\n'}
+[2.804682] (-) TimerEvent: {}
+[2.814200] (limo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.841843] (limo_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library liblimo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.861695] (limo_msgs) StdoutLine: {'line': b'[ 62%] Built target limo_msgs__rosidl_typesupport_cpp\n'}
+[2.881369] (limo_msgs) StdoutLine: {'line': b'[ 62%] Built target limo_msgs__rosidl_typesupport_introspection_c\n'}
+[2.904783] (-) TimerEvent: {}
+[3.005136] (-) TimerEvent: {}
+[3.086677] (limo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.089243] (limo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.105250] (-) TimerEvent: {}
+[3.120861] (limo_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library liblimo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.159083] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.187279] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.201254] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.205328] (-) TimerEvent: {}
+[3.223662] (limo_msgs) StdoutLine: {'line': b'[ 71%] Built target limo_msgs\n'}
+[3.246874] (limo_msgs) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.305444] (-) TimerEvent: {}
+[3.405747] (-) TimerEvent: {}
+[3.506074] (-) TimerEvent: {}
+[3.507078] (limo_msgs) StdoutLine: {'line': b'[ 75%] Built target limo_msgs__py\n'}
+[3.528342] (limo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_generator_py.dir/rosidl_generator_py/limo_msgs/msg/_limo_status_s.c.o\x1b[0m\n'}
+[3.606189] (-) TimerEvent: {}
+[3.629869] (limo_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/liblimo_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.674279] (limo_msgs) StdoutLine: {'line': b'[ 81%] Built target limo_msgs__rosidl_generator_py\n'}
+[3.693612] (limo_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.697574] (limo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.697801] (limo_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/limo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.706295] (-) TimerEvent: {}
+[3.783891] (limo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.786429] (limo_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.804412] (limo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.806372] (-) TimerEvent: {}
+[3.825240] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.829515] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_c__pyext\n'}
+[3.847834] (limo_msgs) StdoutLine: {'line': b'[100%] Built target limo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.858327] (limo_msgs) CommandEnded: {'returncode': 0}
+[3.859110] (limo_msgs) JobProgress: {'identifier': 'limo_msgs', 'progress': 'install'}
+[3.859373] (limo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[3.867797] (limo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.868285] (limo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.868534] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rosidl_interfaces/limo_msgs\n'}
+[3.875837] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__functions.h\n'}
+[3.883419] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.h\n'}
+[3.892510] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.h\n'}
+[3.902337] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.h\n'}
+[3.906444] (-) TimerEvent: {}
+[3.909838] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.917957] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.sh\n'}
+[3.924275] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/library_path.dsv\n'}
+[3.933986] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_c.h\n'}
+[3.942151] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.949410] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__builder.hpp\n'}
+[3.957979] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__struct.hpp\n'}
+[3.967521] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__traits.hpp\n'}
+[3.976458] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__type_support.hpp\n'}
+[3.985953] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/limo_status.hpp\n'}
+[3.992615] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.001924] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.006518] (-) TimerEvent: {}
+[4.011093] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.019168] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_c.h\n'}
+[4.026544] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.033495] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/include/limo_msgs/limo_msgs/msg/detail/limo_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.040523] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.sh\n'}
+[4.049464] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/pythonpath.dsv\n'}
+[4.057436] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.064055] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.070403] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.079362] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.087612] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py\n'}
+[4.093950] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.100835] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.106617] (-) TimerEvent: {}
+[4.107918] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/_limo_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.116991] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/liblimo_msgs__rosidl_generator_py.so\n'}
+[4.126069] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.132845] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.139449] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.146120] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py\n'}
+[4.153033] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py\n'}
+[4.161349] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status_s.c\n'}
+[4.170437] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.170653] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.170778] (limo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/limo_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.170922] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/rust_packages/limo_msgs\n'}
+[4.177473] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/Cargo.toml\n'}
+[4.185949] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/build.rs\n'}
+[4.194842] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/lib.rs\n'}
+[4.201350] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg.rs\n'}
+[4.206712] (-) TimerEvent: {}
+[4.209687] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/rust/src/msg/rmw.rs\n'}
+[4.217717] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.idl\n'}
+[4.224543] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/msg/LimoStatus.msg\n'}
+[4.231083] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/package_run_dependencies/limo_msgs\n'}
+[4.238612] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/parent_prefix_path/limo_msgs\n'}
+[4.246680] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.sh\n'}
+[4.254406] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/ament_prefix_path.dsv\n'}
+[4.260912] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.sh\n'}
+[4.267771] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/environment/path.dsv\n'}
+[4.274073] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.bash\n'}
+[4.280541] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.sh\n'}
+[4.287152] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.zsh\n'}
+[4.294925] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/local_setup.dsv\n'}
+[4.303254] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.dsv\n'}
+[4.306796] (-) TimerEvent: {}
+[4.311230] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/ament_index/resource_index/packages/limo_msgs\n'}
+[4.318564] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.325326] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.334262] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.341997] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.349231] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.357828] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.365490] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.372494] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[4.379070] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig.cmake\n'}
+[4.388063] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgsConfig-version.cmake\n'}
+[4.395640] (limo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/package.xml\n'}
+[4.402749] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so\n'}
+[4.403149] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_c.so" to ""\n'}
+[4.403265] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.403590] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.403766] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.404036] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.404118] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.404452] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.404530] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so\n'}
+[4.404844] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.404923] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.405281] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.405357] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so\n'}
+[4.405686] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.406849] (-) TimerEvent: {}
+[4.435080] (limo_msgs) StdoutLine: {'line': b"Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs'...\n"}
+[4.435213] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/__init__.py'...\n"}
+[4.435259] (limo_msgs) StdoutLine: {'line': b"Listing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg'...\n"}
+[4.435299] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/__init__.py'...\n"}
+[4.435337] (limo_msgs) StdoutLine: {'line': b"Compiling '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages/limo_msgs/msg/_limo_status.py'...\n"}
+[4.439030] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so\n'}
+[4.439431] (limo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib/liblimo_msgs__rosidl_generator_py.so" to ""\n'}
+[4.439517] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport.cmake\n'}
+[4.439762] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.439916] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.440020] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.440125] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.440226] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.440321] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.440430] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.440522] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.440624] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.440718] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.440817] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.440912] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.441009] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.441100] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/limo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.441195] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.441288] (limo_msgs) StdoutLine: {'line': b'-- Installing: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake/export_limo_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.443401] (limo_msgs) CommandEnded: {'returncode': 0}
+[4.457098] (limo_msgs) JobEnded: {'identifier': 'limo_msgs', 'rc': 0}
+[4.457806] (limo_base) JobStarted: {'identifier': 'limo_base'}
+[4.465259] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'cmake'}
+[4.465753] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[4.506967] (-) TimerEvent: {}
+[4.521114] (limo_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.569516] (limo_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.575659] (limo_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.607098] (-) TimerEvent: {}
+[4.640212] (limo_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.647855] (limo_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.648043] (limo_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.648375] (limo_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.650910] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.707211] (-) TimerEvent: {}
+[4.724239] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.733576] (limo_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.733968] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.734588] (limo_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.738642] (limo_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.807319] (-) TimerEvent: {}
+[4.882795] (limo_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.907417] (-) TimerEvent: {}
+[4.941451] (limo_base) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.974153] (limo_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.007551] (-) TimerEvent: {}
+[5.018718] (limo_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.023658] (limo_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.031743] (limo_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.042863] (limo_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.057994] (limo_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.102734] (limo_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.105808] (limo_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.107602] (-) TimerEvent: {}
+[5.203004] (limo_base) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.207690] (-) TimerEvent: {}
+[5.230396] (limo_base) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.278476] (limo_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.289254] (limo_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.307793] (-) TimerEvent: {}
+[5.363127] (limo_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.363660] (limo_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.407903] (-) TimerEvent: {}
+[5.437014] (limo_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.438379] (limo_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.490157] (limo_base) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.502767] (limo_base) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[5.507960] (-) TimerEvent: {}
+[5.518960] (limo_base) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.535665] (limo_base) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.548190] (limo_base) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[5.608106] (-) TimerEvent: {}
+[5.639089] (limo_base) StdoutLine: {'line': b'-- Found limo_msgs: 0.0.0 (/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake)\n'}
+[5.652335] (limo_base) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[5.668291] (limo_base) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[5.669592] (limo_base) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.669728] (limo_base) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.672810] (limo_base) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[5.708202] (-) TimerEvent: {}
+[5.749251] (limo_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.764333] (limo_base) StdoutLine: {'line': b'-- Generating done\n'}
+[5.769394] (limo_base) StdoutLine: {'line': b'-- Build files have been written to: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base\n'}
+[5.778779] (limo_base) CommandEnded: {'returncode': 0}
+[5.779301] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'build'}
+[5.779520] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base', '--', '-j12', '-l12'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[5.808323] (-) TimerEvent: {}
+[5.838303] (limo_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o\x1b[0m\n'}
+[5.838531] (limo_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o\x1b[0m\n'}
+[5.838665] (limo_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o\x1b[0m\n'}
+[5.838768] (limo_base) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tf_pub.dir/src/tf_pub.cpp.o\x1b[0m\n'}
+[5.908433] (-) TimerEvent: {}
+[6.008784] (-) TimerEvent: {}
+[6.109116] (-) TimerEvent: {}
+[6.209447] (-) TimerEvent: {}
+[6.309799] (-) TimerEvent: {}
+[6.410145] (-) TimerEvent: {}
+[6.510503] (-) TimerEvent: {}
+[6.610859] (-) TimerEvent: {}
+[6.711218] (-) TimerEvent: {}
+[6.811580] (-) TimerEvent: {}
+[6.911940] (-) TimerEvent: {}
+[7.012281] (-) TimerEvent: {}
+[7.112606] (-) TimerEvent: {}
+[7.212955] (-) TimerEvent: {}
+[7.313290] (-) TimerEvent: {}
+[7.413635] (-) TimerEvent: {}
+[7.513970] (-) TimerEvent: {}
+[7.614309] (-) TimerEvent: {}
+[7.714660] (-) TimerEvent: {}
+[7.814999] (-) TimerEvent: {}
+[7.915339] (-) TimerEvent: {}
+[8.015678] (-) TimerEvent: {}
+[8.116020] (-) TimerEvent: {}
+[8.216357] (-) TimerEvent: {}
+[8.316680] (-) TimerEvent: {}
+[8.417038] (-) TimerEvent: {}
+[8.436375] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgileX::LimoDriver::parseFrame(const AgileX::LimoFrame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.436654] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kleft_wheel_odom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.436765] (limo_base) StderrLine: {'line': b'  298 |             int32_t \x1b[01;35m\x1b[Kleft_wheel_odom\x1b[m\x1b[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |\n'}
+[8.436857] (limo_base) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.436942] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:300:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kright_wheel_odom\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.437027] (limo_base) StderrLine: {'line': b'  300 |             int32_t \x1b[01;35m\x1b[Kright_wheel_odom\x1b[m\x1b[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |\n'}
+[8.437112] (limo_base) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.442486] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgileX::LimoDriver::publishIMUData(double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.442634] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:489:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpresent_theta_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.442733] (limo_base) StderrLine: {'line': b'  489 |         double \x1b[01;35m\x1b[Kpresent_theta_\x1b[m\x1b[K =imu_data_.yaw;\n'}
+[8.442828] (limo_base) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.442917] (limo_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:490:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klast_theta_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[8.443012] (limo_base) StderrLine: {'line': b'  490 |         double \x1b[01;35m\x1b[Klast_theta_\x1b[m\x1b[K = imu_data_.yaw;\n'}
+[8.443102] (limo_base) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.517144] (-) TimerEvent: {}
+[8.617483] (-) TimerEvent: {}
+[8.717833] (-) TimerEvent: {}
+[8.818186] (-) TimerEvent: {}
+[8.918552] (-) TimerEvent: {}
+[9.018901] (-) TimerEvent: {}
+[9.119259] (-) TimerEvent: {}
+[9.219640] (-) TimerEvent: {}
+[9.320005] (-) TimerEvent: {}
+[9.420369] (-) TimerEvent: {}
+[9.520714] (-) TimerEvent: {}
+[9.621053] (-) TimerEvent: {}
+[9.721377] (-) TimerEvent: {}
+[9.821696] (-) TimerEvent: {}
+[9.922020] (-) TimerEvent: {}
+[10.010846] (limo_base) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable tf_pub\x1b[0m\n'}
+[10.022129] (-) TimerEvent: {}
+[10.122463] (-) TimerEvent: {}
+[10.222826] (-) TimerEvent: {}
+[10.257078] (limo_base) StdoutLine: {'line': b'[ 83%] Built target tf_pub\n'}
+[10.322949] (-) TimerEvent: {}
+[10.423286] (-) TimerEvent: {}
+[10.523655] (-) TimerEvent: {}
+[10.624003] (-) TimerEvent: {}
+[10.724347] (-) TimerEvent: {}
+[10.824687] (-) TimerEvent: {}
+[10.925024] (-) TimerEvent: {}
+[11.025357] (-) TimerEvent: {}
+[11.125695] (-) TimerEvent: {}
+[11.226041] (-) TimerEvent: {}
+[11.326382] (-) TimerEvent: {}
+[11.426737] (-) TimerEvent: {}
+[11.527063] (-) TimerEvent: {}
+[11.627393] (-) TimerEvent: {}
+[11.727734] (-) TimerEvent: {}
+[11.828062] (-) TimerEvent: {}
+[11.928389] (-) TimerEvent: {}
+[12.028724] (-) TimerEvent: {}
+[12.129071] (-) TimerEvent: {}
+[12.229425] (-) TimerEvent: {}
+[12.329750] (-) TimerEvent: {}
+[12.430063] (-) TimerEvent: {}
+[12.530395] (-) TimerEvent: {}
+[12.630672] (-) TimerEvent: {}
+[12.730992] (-) TimerEvent: {}
+[12.831314] (-) TimerEvent: {}
+[12.931641] (-) TimerEvent: {}
+[13.031973] (-) TimerEvent: {}
+[13.132308] (-) TimerEvent: {}
+[13.232658] (-) TimerEvent: {}
+[13.332992] (-) TimerEvent: {}
+[13.433329] (-) TimerEvent: {}
+[13.533664] (-) TimerEvent: {}
+[13.633979] (-) TimerEvent: {}
+[13.734305] (-) TimerEvent: {}
+[13.834638] (-) TimerEvent: {}
+[13.934970] (-) TimerEvent: {}
+[14.035305] (-) TimerEvent: {}
+[14.135634] (-) TimerEvent: {}
+[14.235956] (-) TimerEvent: {}
+[14.336290] (-) TimerEvent: {}
+[14.436660] (-) TimerEvent: {}
+[14.536992] (-) TimerEvent: {}
+[14.628858] (limo_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable limo_base\x1b[0m\n'}
+[14.637093] (-) TimerEvent: {}
+[14.737409] (-) TimerEvent: {}
+[14.837753] (-) TimerEvent: {}
+[14.938100] (-) TimerEvent: {}
+[15.038441] (-) TimerEvent: {}
+[15.110511] (limo_base) StdoutLine: {'line': b'[100%] Built target limo_base\n'}
+[15.123016] (limo_base) CommandEnded: {'returncode': 0}
+[15.123796] (limo_base) JobProgress: {'identifier': 'limo_base', 'progress': 'install'}
+[15.124073] (limo_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base'], 'cwd': '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base', 'env': OrderedDict([('HOSTNAME', 'davejun06-IdeaPad-Flex-5-16IAU7'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/davejun06/LIMO_GAZEBO'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble'), ('PWD', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble')]), 'shell': False}
+[15.133377] (limo_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.133994] (limo_base) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.134585] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_driver.h\n'}
+[15.138510] (-) TimerEvent: {}
+[15.141935] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_protocol.h\n'}
+[15.152137] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/serial_port.h\n'}
+[15.161868] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/limo_base\n'}
+[15.172382] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/tf_pub\n'}
+[15.184051] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/limo_base.launch.py\n'}
+[15.191104] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/open_ydlidar_launch.py\n'}
+[15.200795] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/start_limo.launch.py\n'}
+[15.210376] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_base_node.cpp\n'}
+[15.220299] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_driver.cpp\n'}
+[15.227288] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/serial_port.cpp\n'}
+[15.236287] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/tf_pub.cpp\n'}
+[15.238579] (-) TimerEvent: {}
+[15.246439] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/package_run_dependencies/limo_base\n'}
+[15.256814] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/parent_prefix_path/limo_base\n'}
+[15.266698] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.sh\n'}
+[15.274517] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.dsv\n'}
+[15.284023] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.sh\n'}
+[15.293698] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.dsv\n'}
+[15.301181] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.bash\n'}
+[15.309193] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.sh\n'}
+[15.318616] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.zsh\n'}
+[15.327800] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.dsv\n'}
+[15.334935] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.dsv\n'}
+[15.338645] (-) TimerEvent: {}
+[15.344439] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/packages/limo_base\n'}
+[15.354275] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.363629] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig.cmake\n'}
+[15.371010] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig-version.cmake\n'}
+[15.379820] (limo_base) StdoutLine: {'line': b'-- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.xml\n'}
+[15.390962] (limo_base) CommandEnded: {'returncode': 0}
+[15.400977] (limo_base) JobEnded: {'identifier': 'limo_base', 'rc': 0}
+[15.401638] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[0.610s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/pure_pursuit': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit build --build-base /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/build install --record /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/install.log --install-scripts $base/lib/pure_pursuit --single-version-externally-managed install_data
+[0.825s] running egg_info
+[0.835s] writing ../../build/pure_pursuit/pure_pursuit.egg-info/PKG-INFO
+[0.836s] writing dependency_links to ../../build/pure_pursuit/pure_pursuit.egg-info/dependency_links.txt
+[0.836s] writing entry points to ../../build/pure_pursuit/pure_pursuit.egg-info/entry_points.txt
+[0.836s] writing requirements to ../../build/pure_pursuit/pure_pursuit.egg-info/requires.txt
+[0.836s] writing top-level names to ../../build/pure_pursuit/pure_pursuit.egg-info/top_level.txt
+[0.860s] reading manifest file '../../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.860s] adding license file 'LICENSE'
+[0.861s] writing manifest file '../../build/pure_pursuit/pure_pursuit.egg-info/SOURCES.txt'
+[0.861s] running build
+[0.861s] running build_py
+[0.862s] copying pure_pursuit/pure_pursuit_node.py -> /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/build/lib/pure_pursuit
+[0.862s] running install
+[0.866s] running install_lib
+[0.878s] copying /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/build/lib/pure_pursuit/pure_pursuit_node.py -> /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit
+[0.878s] byte-compiling /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit/pure_pursuit_node.py to pure_pursuit_node.cpython-310.pyc
+[0.882s] running install_data
+[0.883s] running install_egg_info
+[0.920s] removing '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit-1.1.2-py3.10.egg-info' (and everything under it)
+[0.921s] Copying ../../build/pure_pursuit/pure_pursuit.egg-info to /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages/pure_pursuit-1.1.2-py3.10.egg-info
+[0.922s] running install_scripts
+[0.948s] Installing pure_pursuit_node script to /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/pure_pursuit
+[0.949s] writing list of installed files to '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/install.log'
+[0.977s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/pure_pursuit' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/pure_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pure_pursuit build --build-base /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/build install --record /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/pure_pursuit/install.log --install-scripts $base/lib/pure_pursuit --single-version-externally-managed install_data

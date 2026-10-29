@@ -1,0 +1,103 @@
+[0.009s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.183s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.267s] -- Detecting CXX compiler ABI info - done
+[0.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.484s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.516s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.561s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.574s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.645s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.745s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.773s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.821s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.832s] -- Looking for pthread.h
+[0.905s] -- Looking for pthread.h - found
+[0.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.979s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.981s] -- Found Threads: TRUE  
+[1.033s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.045s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.061s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.078s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[1.090s] -- Found tf2_ros: 0.25.22 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.181s] -- Found limo_msgs: 0.0.0 (/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/share/limo_msgs/cmake)
+[1.195s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.211s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.212s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.212s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.215s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[1.292s] -- Configuring done
+[1.307s] -- Generating done
+[1.312s] -- Build files have been written to: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base
+[1.321s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base
+[1.322s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base -- -j12 -l12
+[1.381s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_driver.cpp.o[0m
+[1.381s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/limo_base_node.cpp.o[0m
+[1.381s] [ 66%] [32mBuilding CXX object CMakeFiles/limo_base.dir/src/serial_port.cpp.o[0m
+[1.381s] [ 66%] [32mBuilding CXX object CMakeFiles/tf_pub.dir/src/tf_pub.cpp.o[0m
+[3.979s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::parseFrame(const AgileX::LimoFrame&)[m[K’:
+[3.979s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:298:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_wheel_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.979s]   298 |             int32_t [01;35m[Kleft_wheel_odom[m[K = (frame.data[3] & 0xff) | (frame.data[2] << 8) |
+[3.979s]       |                     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.979s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:300:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_wheel_odom[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.979s]   300 |             int32_t [01;35m[Kright_wheel_odom[m[K = (frame.data[7] & 0xff) | (frame.data[6] << 8) |
+[3.979s]       |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[3.985s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:[m[K In member function ‘[01m[Kvoid AgileX::LimoDriver::publishIMUData(double)[m[K’:
+[3.985s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:489:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpresent_theta_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.985s]   489 |         double [01;35m[Kpresent_theta_[m[K =imu_data_.yaw;
+[3.985s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.985s] [01m[K/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/src/limo_driver.cpp:490:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_theta_[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.985s]   490 |         double [01;35m[Klast_theta_[m[K = imu_data_.yaw;
+[3.985s]       |                [01;35m[K^~~~~~~~~~~[m[K
+[5.553s] [ 83%] [32m[1mLinking CXX executable tf_pub[0m
+[5.799s] [ 83%] Built target tf_pub
+[10.171s] [100%] [32m[1mLinking CXX executable limo_base[0m
+[10.653s] [100%] Built target limo_base
+[10.665s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base -- -j12 -l12
+[10.667s] Invoking command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base
+[10.676s] -- Install configuration: ""
+[10.676s] -- Execute custom install script
+[10.677s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_driver.h
+[10.684s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/limo_protocol.h
+[10.694s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/include/limo_base/serial_port.h
+[10.704s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/limo_base
+[10.715s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/lib/limo_base/tf_pub
+[10.726s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/limo_base.launch.py
+[10.733s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/open_ydlidar_launch.py
+[10.743s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//launch/start_limo.launch.py
+[10.753s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_base_node.cpp
+[10.763s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/limo_driver.cpp
+[10.770s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/serial_port.cpp
+[10.779s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base//src/tf_pub.cpp
+[10.789s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/package_run_dependencies/limo_base
+[10.799s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/parent_prefix_path/limo_base
+[10.809s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.sh
+[10.817s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/ament_prefix_path.dsv
+[10.826s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.sh
+[10.836s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/environment/path.dsv
+[10.843s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.bash
+[10.852s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.sh
+[10.861s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.zsh
+[10.870s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/local_setup.dsv
+[10.877s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.dsv
+[10.887s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/ament_index/resource_index/packages/limo_base
+[10.897s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.906s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig.cmake
+[10.913s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/cmake/limo_baseConfig-version.cmake
+[10.922s] -- Symlinking: /home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_base/share/limo_base/package.xml
+[10.934s] Invoked command in '/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base' returned '0': AMENT_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/slam_toolbox:/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/davejun06/LIMO_GAZEBO/ws_limo_humble/install/limo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_base
