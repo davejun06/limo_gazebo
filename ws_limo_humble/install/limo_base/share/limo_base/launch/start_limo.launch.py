@@ -1,1 +1,0 @@
-/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/limo_ros2/limo_base/launch/start_limo.launch.py

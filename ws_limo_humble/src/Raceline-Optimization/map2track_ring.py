@@ -1,3 +1,11 @@
+# --- 동봉 패키지(pylib) 자동 사용: python3 만으로 실행되게 한다 (설치·인터넷 불필요) ---
+import os as _os, sys as _sys
+_PYLIB = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'pylib')
+if _os.path.isdir(_PYLIB) and _os.environ.get('RACELINE_PYLIB') != '1':
+    _env = dict(_os.environ, RACELINE_PYLIB='1', PYTHONPATH=_PYLIB)
+    _env.setdefault('MPLBACKEND', 'Agg')
+    _os.execve(_sys.executable, [_sys.executable, '-S'] + _sys.argv, _env)
+# ---------------------------------------------------------------------------------
 import sys
 import numpy as np, yaml
 from PIL import Image

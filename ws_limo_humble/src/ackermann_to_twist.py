@@ -15,8 +15,21 @@ class Bridge(Node):
         self.pub = self.create_publisher(Twist, '/cmd_vel', 1)
         self.create_subscription(
             AckermannDriveStamped, '/pure_pursuit/ackermann_cmd', self.cb, 1)
+        # Neither the adapter nor the Gazebo plugin times out: without this, a dead planner
+        # leaves the last nonzero command running.
+        self.declare_parameter('cmd_timeout', 0.5)
+        self.last_cmd = None
+        self.create_timer(0.1, self.watchdog)
+
+    def watchdog(self):
+        if self.last_cmd is None:
+            return
+        age = (self.get_clock().now() - self.last_cmd).nanoseconds * 1e-9
+        if age > self.get_parameter('cmd_timeout').value:
+            self.pub.publish(Twist())
 
     def cb(self, msg):
+        self.last_cmd = self.get_clock().now()
         s = self.get_parameter('speed_scale').value
         m = self.get_parameter('max_speed').value
         v = max(-m, min(m, msg.drive.speed * s))

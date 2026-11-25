@@ -42,6 +42,7 @@ class PPPathPub(Node):
             p = PoseStamped()
             p.header.frame_id = self.frame_id
             p.pose.position.x, p.pose.position.y = x, y
+            p.pose.position.z = v * self.factor       # 속도를 높이로 표시: RViz에서 확인용, 추종에는 쓰지 않음
             p.pose.orientation.w = v * self.factor    # pure_pursuit이 속도를 읽는 필드
             msg.poses.append(p)
         self.pub.publish(msg)

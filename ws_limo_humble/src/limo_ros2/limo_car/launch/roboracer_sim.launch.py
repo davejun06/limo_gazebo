@@ -15,13 +15,12 @@ def generate_launch_description():
     limo_share = get_package_share_directory("limo_car")
     gazebo_share = get_package_share_directory("gazebo_ros")
 
-    default_world = os.path.join(
-        limo_share,
-        "worlds",
-        "roboracer",
-        "ifac_roboracer.world",
-    )
-    default_rviz = os.path.join(limo_share, "rviz", "gazebo.rviz")
+    # This file is a symlink into src/limo_ros2/limo_car/launch; the workspace is four levels up.
+    workspace = os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "..", ".."))
+    default_world = os.path.join(workspace, "src", "limo_ros2", "limo_car", "worlds", "roboracer", "ifac_roboracer.world")   # default: no obstacles; obstacles: world:=.../roboracer_obstacles_1/ifac_roboracer_obstacles_1.world
+    default_rviz = os.path.join(workspace, "tools", "exp", "limo_view.rviz")
+    if not os.path.exists(default_rviz):
+        default_rviz = os.path.join(limo_share, "rviz", "gazebo.rviz")
 
     world = LaunchConfiguration("world")
     spawn_x = LaunchConfiguration("spawn_x")
@@ -64,7 +63,7 @@ def generate_launch_description():
         package="rviz2",
         executable="rviz2",
         name="rviz2",
-        arguments=["-d", default_rviz, "--ros-args", "--log-level", "error"],
+        arguments=["-d", LaunchConfiguration("rviz_config"), "--ros-args", "--log-level", "error"],
         parameters=[{"use_sim_time": True}],
         condition=IfCondition(use_rviz),
         output="screen",
@@ -72,12 +71,13 @@ def generate_launch_description():
 
     return LaunchDescription([
         DeclareLaunchArgument("world", default_value=default_world),
-        DeclareLaunchArgument("spawn_x", default_value="0.0"),
-        # One 1 m grid cell above the green +Y start line, facing +X.
-        DeclareLaunchArgument("spawn_y", default_value="1.0"),
+        DeclareLaunchArgument("spawn_x", default_value="-0.0222"),
+        # On the route with the whole body behind the start line; same as tools/exp/place_start.py.
+        DeclareLaunchArgument("spawn_y", default_value="0.2205"),
         DeclareLaunchArgument("spawn_z", default_value="0.15"),
-        DeclareLaunchArgument("spawn_yaw", default_value="0.0"),
+        DeclareLaunchArgument("spawn_yaw", default_value="-0.1375"),
         DeclareLaunchArgument("rviz", default_value="true"),
+        DeclareLaunchArgument("rviz_config", default_value=default_rviz),
         robot_description,
         gazebo,
         TimerAction(period=2.0, actions=[spawn]),

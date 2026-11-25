@@ -1,1 +1,0 @@
-/home/davejun06/LIMO_GAZEBO/ws_limo_humble/src/slam_toolbox/launch/merge_maps_kinematic_launch.py

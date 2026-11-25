@@ -1,1 +1,0 @@
-/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_msgs/rosidl_generator_c/limo_msgs/msg/detail/limo_status__type_support.h

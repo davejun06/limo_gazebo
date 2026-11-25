@@ -273,7 +273,11 @@ class PurePursuit(Node):
             )
         # Initialize TF2 components
         self.tf_buffer = Buffer()
-        self.tf_listener = TransformListener(self.tf_buffer, self)
+        # Separate node and thread: lookup_transform below blocks this executor for tf_timeout on
+        # a miss. /tf delivered on the same executor reached only about one message per miss, so
+        # map->odom (under 3% of /tf) took a long time to arrive and no command was published.
+        # Passing self here would not help: rclpy.spin() moves the node back to its own executor.
+        self.tf_listener = TransformListener(self.tf_buffer, None, spin_thread=True)
 
         # Create control timer with configurable frequency
         timer_period = 1.0 / self.control_frequency

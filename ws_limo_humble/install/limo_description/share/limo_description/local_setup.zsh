@@ -1,1 +1,0 @@
-/home/davejun06/LIMO_GAZEBO/ws_limo_humble/build/limo_description/ament_cmake_environment_hooks/local_setup.zsh
